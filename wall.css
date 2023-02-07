@@ -13,22 +13,26 @@ body {
   overflow-wrap: anywhere;
 }
 
-figure {
+article {
   margin: auto;
-  padding-block-end: 2rem;
 }
 
-data::first-letter {
+i {
+  font: unset;
   font-size: 1.618em;
 }
 
+b {
+  font-size: 2.618em;
+}
+
 @media (min-width: 50em) {
-  data {
+  .brisa {
     letter-spacing: 0.618em;
   }
 }
 
-blockquote {
+.petal {
   align-items: center;
   display: flex;
   flex-flow: column;
@@ -37,12 +41,4 @@ blockquote {
   justify-content: center;
   margin: auto;
   min-height: 100vh;
-}
-
-figcaption {
-  max-width: 10em;
-  box-sizing: border-box;
-  padding: 5vmin;
-  font-family: monospace;
-  font-size: 1ch;
 }
